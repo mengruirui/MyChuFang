@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface XiaChuFangCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UIImageView *icionIV;
+@property (weak, nonatomic) IBOutlet UILabel *titleLb;
+@property (weak, nonatomic) IBOutlet UILabel *detailLb;
 
 @end
