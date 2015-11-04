@@ -12,7 +12,6 @@
 		3804CE521BD758F10046C8C8 /* NSObject+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 3804CE4C1BD758F10046C8C8 /* NSObject+Common.m */; };
 		3804CE531BD758F10046C8C8 /* NSString+PJR.m in Sources */ = {isa = PBXBuildFile; fileRef = 3804CE4E1BD758F10046C8C8 /* NSString+PJR.m */; };
 		3804CE541BD758F10046C8C8 /* NSString+QRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3804CE501BD758F10046C8C8 /* NSString+QRCode.m */; };
-		3835CFB71BD90E150024CA48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3835CFB61BD90E150024CA48 /* ViewController.m */; };
 		3879FE811BDFA8E100A99990 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3879FE801BDFA8E100A99990 /* libsqlite3.0.tbd */; };
 		3886C0981BD748830014E661 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3886C0971BD748830014E661 /* main.m */; };
 		3886C09B1BD748830014E661 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3886C09A1BD748830014E661 /* AppDelegate.m */; };
@@ -25,6 +24,9 @@
 		856137991BE98E9100404BCD /* ScrollDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 856137981BE98E9100404BCD /* ScrollDisplayViewController.m */; };
 		8561379D1BE98F7700404BCD /* InitPageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8561379C1BE98F7700404BCD /* InitPageModel.m */; };
 		856137A11BE9951900404BCD /* XiaChuFangNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 856137A01BE9951900404BCD /* XiaChuFangNetManager.m */; };
+		856137AB1BE9B39F00404BCD /* XiaChuFangTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 856137AA1BE9B39F00404BCD /* XiaChuFangTableViewController.m */; };
+		856137AF1BE9B7B900404BCD /* XiaChuFangCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 856137AE1BE9B7B900404BCD /* XiaChuFangCell.m */; };
+		856137B31BE9B82600404BCD /* XiaChuFangViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 856137B21BE9B82600404BCD /* XiaChuFangViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,8 +38,6 @@
 		3804CE4E1BD758F10046C8C8 /* NSString+PJR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PJR.m"; sourceTree = "<group>"; };
 		3804CE4F1BD758F10046C8C8 /* NSString+QRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+QRCode.h"; sourceTree = "<group>"; };
 		3804CE501BD758F10046C8C8 /* NSString+QRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+QRCode.m"; sourceTree = "<group>"; };
-		3835CFB51BD90E150024CA48 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3835CFB61BD90E150024CA48 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3879FE801BDFA8E100A99990 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		3879FE9D1BDFDD2400A99990 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		3886C0931BD748830014E661 /* BaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +64,12 @@
 		8561379C1BE98F7700404BCD /* InitPageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitPageModel.m; sourceTree = "<group>"; };
 		8561379F1BE9951900404BCD /* XiaChuFangNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiaChuFangNetManager.h; sourceTree = "<group>"; };
 		856137A01BE9951900404BCD /* XiaChuFangNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiaChuFangNetManager.m; sourceTree = "<group>"; };
+		856137A91BE9B39F00404BCD /* XiaChuFangTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiaChuFangTableViewController.h; sourceTree = "<group>"; };
+		856137AA1BE9B39F00404BCD /* XiaChuFangTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiaChuFangTableViewController.m; sourceTree = "<group>"; };
+		856137AD1BE9B7B900404BCD /* XiaChuFangCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiaChuFangCell.h; sourceTree = SOURCE_ROOT; };
+		856137AE1BE9B7B900404BCD /* XiaChuFangCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiaChuFangCell.m; sourceTree = SOURCE_ROOT; };
+		856137B11BE9B82600404BCD /* XiaChuFangViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiaChuFangViewModel.h; sourceTree = "<group>"; };
+		856137B21BE9B82600404BCD /* XiaChuFangViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiaChuFangViewModel.m; sourceTree = "<group>"; };
 		DD4F0750B5DAAA87BA236B31 /* Pods-BaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -199,6 +205,7 @@
 		3886C0B51BD74A4A0014E661 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				856137AC1BE9B79800404BCD /* XiaChuFang */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -206,8 +213,7 @@
 		3886C0B61BD74A4A0014E661 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				3835CFB51BD90E150024CA48 /* ViewController.h */,
-				3835CFB61BD90E150024CA48 /* ViewController.m */,
+				856137A21BE9A94300404BCD /* XiaChuFang */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -215,6 +221,7 @@
 		3886C0B71BD74A4A0014E661 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				856137B01BE9B7EC00404BCD /* XiaChuFang */,
 				3886C0B91BD74AE90014E661 /* BaseViewModel.h */,
 				3886C0BA1BD74AE90014E661 /* BaseViewModel.m */,
 			);
@@ -246,6 +253,33 @@
 				856137A01BE9951900404BCD /* XiaChuFangNetManager.m */,
 			);
 			name = XiaChuFangNetManager;
+			sourceTree = "<group>";
+		};
+		856137A21BE9A94300404BCD /* XiaChuFang */ = {
+			isa = PBXGroup;
+			children = (
+				856137A91BE9B39F00404BCD /* XiaChuFangTableViewController.h */,
+				856137AA1BE9B39F00404BCD /* XiaChuFangTableViewController.m */,
+			);
+			name = XiaChuFang;
+			sourceTree = "<group>";
+		};
+		856137AC1BE9B79800404BCD /* XiaChuFang */ = {
+			isa = PBXGroup;
+			children = (
+				856137AD1BE9B7B900404BCD /* XiaChuFangCell.h */,
+				856137AE1BE9B7B900404BCD /* XiaChuFangCell.m */,
+			);
+			name = XiaChuFang;
+			sourceTree = "<group>";
+		};
+		856137B01BE9B7EC00404BCD /* XiaChuFang */ = {
+			isa = PBXGroup;
+			children = (
+				856137B11BE9B82600404BCD /* XiaChuFangViewModel.h */,
+				856137B21BE9B82600404BCD /* XiaChuFangViewModel.m */,
+			);
+			name = XiaChuFang;
 			sourceTree = "<group>";
 		};
 		DEB62B47C560AA65E07ECFA4 /* Pods */ = {
@@ -387,15 +421,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				856137B31BE9B82600404BCD /* XiaChuFangViewModel.m in Sources */,
 				3886C0BE1BD74AFE0014E661 /* BaseNetManager.m in Sources */,
 				3804CE541BD758F10046C8C8 /* NSString+QRCode.m in Sources */,
 				3804CE531BD758F10046C8C8 /* NSString+PJR.m in Sources */,
 				3886C09B1BD748830014E661 /* AppDelegate.m in Sources */,
 				8561379D1BE98F7700404BCD /* InitPageModel.m in Sources */,
-				3835CFB71BD90E150024CA48 /* ViewController.m in Sources */,
 				3804CE511BD758F10046C8C8 /* AppDelegate+Category.m in Sources */,
 				856137991BE98E9100404BCD /* ScrollDisplayViewController.m in Sources */,
 				3886C0BB1BD74AE90014E661 /* BaseViewModel.m in Sources */,
+				856137AB1BE9B39F00404BCD /* XiaChuFangTableViewController.m in Sources */,
+				856137AF1BE9B7B900404BCD /* XiaChuFangCell.m in Sources */,
 				3886C0C11BD74B090014E661 /* BaseModel.m in Sources */,
 				856137A11BE9951900404BCD /* XiaChuFangNetManager.m in Sources */,
 				3886C0981BD748830014E661 /* main.m in Sources */,

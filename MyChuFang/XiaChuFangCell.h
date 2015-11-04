@@ -1,13 +1,13 @@
 //
-//  ViewController.h
+//  XiaChuFangCell.h
 //  BaseProject
 //
-//  Created by jiyingxin on 15/10/22.
+//  Created by tarena on 15/11/4.
 //  Copyright © 2015年 Tarena. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface XiaChuFangCell : UITableViewCell
 
 @end
